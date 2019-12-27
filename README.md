@@ -1,4 +1,4 @@
-Python Package
+Understanding Python Package
 ----------
 ![alt text](https://img.shields.io/badge/version-Python3.6.5-red)
 > Python Package 에 대해 이해하기 위해 작성하였습니다.
@@ -7,7 +7,7 @@ Python Package
 Python 에서 사용하고 있는 패키지를 호출하는 방법에 대해 이해하는 문서 입니다.
 
 모든 내용은 Python 공식 문서를 바탕으로 작성 되었습니다.
-- Official Document
+- Official Python Document
   - KOR : https://docs.python.org/ko/3/tutorial/modules.html
   - ENG : https://docs.python.org/3/tutorial/modules.html
 
@@ -103,7 +103,7 @@ Step2 와 다른 점은 `import sound.effects.echo` 방식이 아닌 `from sound
 # Step 4
 
 **issue**
-`from sound.effects import *` 명령어를 통해 `effects` directory 내의 모든 모듈을 호출
+- `from sound.effects import *` 명령어를 통해 `effects` directory 내의 모든 모듈을 호출
 - 이상적으로는, 어떻게든 파일 시스템에서 패키지에 어떤 모듈들이 들어있는지 찾은 다음, 그것들 모두를 임포트 하기를 원할 것입니다.
 - 이렇게 하는 데는 시간이 오래 걸리고 서브 모듈을 임포트 함에 따라 어떤 서브 모듈을 명시적으로 임포트할 경우만 일어나야만 하는 원하지 않는 부수적 효과가 발생할 수 있습니다.
 
