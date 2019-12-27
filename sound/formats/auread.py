@@ -1,4 +1,8 @@
-def test_reverse():
-    reverse = reversed(list(range(10)))
+def test_auread():
+    result = list(range(10))
 
-    return reverse
+    return result
+
+
+if __name__ == "__main__":
+    print(test_auread())

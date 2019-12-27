@@ -1,1 +1,1 @@
-# __all__ = ['aiffread', 'aiffwrite', 'auread', 'auwrite', 'wavread', 'wavwrite']
+__all__ = ['aiffread', 'aiffwrite', 'auread', 'auwrite', 'wavread', 'wavwrite']
